@@ -8,7 +8,7 @@ pool:
 
 trigger:
 - master
-- develop/*
+- develop
 
 steps:
 - task: Gradle@2
