@@ -17,7 +17,7 @@
 package com.microsoft.sample;
 
 public interface BasePresenter {
-    
+    //This is new comment
     void start();
     
 
