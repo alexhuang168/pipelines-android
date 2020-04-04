@@ -6,6 +6,10 @@
 pool:
   vmImage: 'macOS-10.14'
 
+trigger:
+- master
+- releases/*
+
 steps:
 - task: Gradle@2
   inputs:
